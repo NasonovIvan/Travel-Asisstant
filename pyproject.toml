@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "travel-asisstant"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Nasonov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.7"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+amadeus = "11.0.0"
+urlopen = "^1.0.0"
+serpapi = "^0.1.5"
+pandas = "^2.2.3"
+streamlit = "^1.41.1"
+google-search-results = "^2.4.2"
+google-serp-api = "^1.0.5"
+selenium = "^4.27.1"
+beautifulsoup4 = "^4.12.3"
+pyppeteer = "^2.0.0"
+bytesbufio = "^1.0.3"
+python-rucaptcha = "^6.3.1"
+2captcha-python = "^1.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
